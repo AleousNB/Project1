@@ -19,5 +19,16 @@ int main()
 	cout << greatSwordOfGreatness.GetInfo() << endl;
 	cout << clothArmor.GetInfo() << endl;
 
+	Location field = Location("Field", "There's alot of grass...");
+	Character gandalf = Character("Gandalf", "Maiar", 1000, 1000);
+	Weapon staff = Weapon("Wooden Staff", 100);
+	Armor clothrobes = Armor("Cloth Robes", 50);
+
+	cout << endl << endl;
+
+	cout << field.GetInfo() << endl;
+	cout << gandalf.GetInfo() << endl;
+	cout << staff.GetInfo() << endl;
+	cout << clothrobes.GetInfo() << endl;
 	return 0;
 }
