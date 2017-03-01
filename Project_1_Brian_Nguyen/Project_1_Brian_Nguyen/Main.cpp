@@ -32,9 +32,11 @@ int main()
 	cout << clothrobes.GetInfo() << endl;
 
 	cout << endl << endl;
+
 	cout << "Set health/energy test" << endl;
 	gandalf.SetHealth(500);
 	gandalf.SetEnergy(0);
 	cout << gandalf.GetInfo() << endl;
+
 	return 0;
 }
