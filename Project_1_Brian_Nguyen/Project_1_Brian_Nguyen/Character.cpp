@@ -15,6 +15,16 @@ Character::~Character()
 {
 }
 
+void Character::SetHealth(int health)
+{
+	_health = health;
+}
+
+void Character::SetEnergy(int energy)
+{
+	_energy = energy;
+}
+
 string Character::GetInfo()
 {
 	string info = "This is " + _name + ", a " + _race + " that has ";

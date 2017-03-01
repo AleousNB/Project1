@@ -11,6 +11,8 @@ private:
 public:
 	Character(std::string name, std::string race, int health, int energy);
 	~Character();
+	void SetHealth(int health);
+	void SetEnergy(int energy);
 	std::string GetInfo();
 };
 
